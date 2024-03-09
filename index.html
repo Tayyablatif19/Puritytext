@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./nust_N-removebg-preview.png">
+    <title>NUST Impurity Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+    <!-- hero  -->
+    <div class="hero-container">
+        <img src="./nust_N-removebg-preview.png" alt="Logo" class="logo">
+        <div class="hero-text">
+            <h1>NUST Impurity Test</h1>
+        </div>
+    </div>
+    
+
+    <!-- intro text -->
+    <div class="container">
+        
+        <p>Calculate and reflect on your university journey. See the highs and lows, reminisce on memorable moments, and evaluate the rules and regulations you may have bent or broken. Make your 4 years count!</p>
+    </div>
+
+    <!-- questions -->
+
+    <h2>Questions</h2>
+<div class="container">
+    <p>Tick the boxes if you have done THE thing.</p>
+</div>
+
+    <form id="quizForm">
+        <div class="question">
+            <label>
+                <input type="checkbox" name="q1" value="1"> Ever bunked a class
+            </label>
+        </div>
+        <div class="question">
+            <label>
+                <input type="checkbox" name="q2" value="1"> Ever bunked a lab
+            </label>
+        </div>
+        <div class="question">
+            <label>
+                <input type="checkbox" name="q1" value="1"> Had a DC called on you
+            </label>
+        </div>
+        <div class="question">
+            <label>
+                <input type="checkbox" name="q2" value="1"> cheated in an exam
+            </label>
+        </div>
+        <div class="question">
+            <label>
+                <input type="checkbox" name="q1" value="1"> scored an F grade
+            </label>
+        </div>
+        <div class="question">
+            <label>
+                <input type="checkbox" name="q2" value="1"> got a gpa below 2
+            </label>
+        </div>
+        <div class="question">
+            <label>
+                <input type="checkbox" name="q1" value="1"> scored an XF
+            </label>
+        </div>
+        <div class="question">
+            <label>
+                <input type="checkbox" name="q2" value="1"> posted your first semester friends as friends4ever
+            </label>
+        </div>
+        <div class="question">
+            <label>
+                <input type="checkbox" name="q1" value="1"> buttered a teacher
+            </label>
+        </div>
+        <div class="question">
+            <label>
+                <input type="checkbox" name="q2" value="1"> went to sir arshads office
+            </label>
+        </div>
+        <div class="question">
+            <label>
+                <input type="checkbox" name="q1" value="1"> complained about a teacher
+            </label>
+        </div>
+        <div class="question">
+            <label>
+                <input type="checkbox" name="q2" value="1"> slept in class
+            </label>
+        </div>
+
+        <button type="button" onclick="calculateScore()">Calculate</button>
+    </form>
+    <div id="result"></div>
+</div>
+
+<!-- leaderboard -->
+
+<a href="leaderboard.html" class="leaderboard-btn">LeaderBoard</a>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
